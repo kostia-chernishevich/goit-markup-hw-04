@@ -224,6 +224,9 @@ a {
   width: calc((100% - 72px) / 4);
 }
 .main-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #f4f4fd;
   margin-bottom: 8px;
   border: 1px solid #8e8f99;
