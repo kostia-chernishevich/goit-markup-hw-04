@@ -418,12 +418,11 @@ footer {
   background-color: #2e2f42;
   padding: 100px 0;
   display: flex;
-  align-items: center;
-  align-content: flex-start;
-  gap: 120px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
-.container-footer {
-}
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -447,9 +446,9 @@ footer {
   color: #f4f4fd;
 }
 .social-container-footer {
-  display: inline-block;
+  display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 .title-footer {
   font-weight: 500;
@@ -462,4 +461,10 @@ footer {
 
 .list-footer-social {
   gap: 16px;
+}
+
+.footer-social-list:hover {
+  background-color: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
