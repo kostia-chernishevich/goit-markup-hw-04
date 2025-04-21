@@ -16,10 +16,7 @@ ul {
 a {
   text-decoration: none;
 }
-svg {
-  width: 24px;
-  height: 24px;
-}
+
 /* nav */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -480,12 +477,13 @@ footer {
   display: inline-block;
 }
 .text-footer {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
+  margin-bottom: 16px;
 }
 .span-footer {
   color: #f4f4fd;
@@ -532,4 +530,8 @@ footer {
 
 .icon {
   fill: #f4f4fd;
+  svg {
+    width: 24px;
+    height: 24px;
+  }
 }
