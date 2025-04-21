@@ -483,11 +483,13 @@ footer {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
+  margin-bottom: 16px;
 }
 .span-footer {
   color: #f4f4fd;
 }
 .social-container-footer {
+  margin-bottom: 16px;
 }
 .text-footer-social {
   font-weight: 500;
@@ -495,6 +497,8 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+.text-footer-social {
   margin-bottom: 16px;
 }
 .list-social {
@@ -502,8 +506,6 @@ footer {
   gap: 16px;
 }
 
-.item-social {
-}
 .footer-link {
   width: 100%;
   height: 100%;
