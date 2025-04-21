@@ -489,20 +489,22 @@ footer {
 .social-container-footer {
 }
 .text-footer-social {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 .list-social {
   display: flex;
   gap: 16px;
 }
+svg {
+  width: 24px;
+  height: 24px;
+}
 .item-social {
-  width: 40px;
-  height: 40px;
 }
 .footer-link {
   width: 100%;
@@ -512,6 +514,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer-link:first-child {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover {
   background-color: #31d0aa;
