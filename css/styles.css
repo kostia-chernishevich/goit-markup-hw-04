@@ -16,6 +16,10 @@ ul {
 a {
   text-decoration: none;
 }
+svg {
+  width: 24px;
+  height: 24px;
+}
 /* nav */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -489,21 +493,18 @@ footer {
 .social-container-footer {
 }
 .text-footer-social {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
 }
 .list-social {
   display: flex;
   gap: 16px;
 }
-svg {
-  width: 24px;
-  height: 24px;
-}
+
 .item-social {
 }
 .footer-link {
@@ -531,6 +532,4 @@ svg {
 
 .icon {
   fill: #f4f4fd;
-  width: 24px;
-  height: 24px;
 }
