@@ -416,7 +416,9 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.item-portfolio:hover .overlay-text {
+  transform: translateY(0%);
+}
 .overlay-text {
   position: absolute;
   top: 0;
@@ -454,12 +456,13 @@ a {
 footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: flex;
 }
 .container-footer {
-  margin-right: 120px;
   display: flex;
   align-items: baseline;
+}
+.logo-container-footer {
+  margin-right: 120px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
