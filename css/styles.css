@@ -487,14 +487,19 @@ footer {
 .span-footer {
   color: #f4f4fd;
 }
-.social-container-footer {
-}
 
 .list-social {
   display: flex;
   gap: 16px;
 }
-
+.text-footer-social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
 .footer-link {
   width: 100%;
   height: 100%;
