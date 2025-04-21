@@ -483,7 +483,6 @@ footer {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  margin-bottom: 16px;
 }
 .span-footer {
   color: #f4f4fd;
@@ -491,7 +490,6 @@ footer {
 .social-container-footer {
 }
 .text-footer-social {
-  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -530,8 +528,6 @@ footer {
 
 .icon {
   fill: #f4f4fd;
-  svg {
-    width: 24px;
-    height: 24px;
-  }
+  width: 24px;
+  height: 24px;
 }
